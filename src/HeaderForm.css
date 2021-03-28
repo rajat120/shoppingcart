@@ -1,0 +1,21 @@
+.headerform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__input {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.header__input > form > h3 {
+  margin-bottom: 5px;
+}
+.header__input > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+}
